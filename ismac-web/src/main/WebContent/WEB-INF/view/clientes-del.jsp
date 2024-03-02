@@ -1,24 +1,23 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Eliminar clientes</title>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 </head>
 <body>
-		<h>Eliminar clientes</h>
+	<h1>Eliminar clientes</h1>
+	
+	<form action="del" method="get">
+	
+		<input type="hidden" id="idCliente" name="idCliente" value="${cliente.idCliente }">
+		<strong>Desea Eliminar un Dato?</strong>
 		
-		<form action ="del" method="GET">
-		
-			<input type="hidden" id="idCliente" name="idCliente"  value="${cliente.idCliente }">
-			<strong>¿Desea elminar el dato?</strong>
-			<br/><br/>
-			<button type="submit">Aceptar</button>
-			<button type="button" onclick="window.location.href='/ismac-libreria-web/clientes/findAll;return false;'">Cancelar</button>
-				
-		
-		</form>
+		<br/><br/>
+		<button type="submit">Eliminar</button>
+		<button type="button" onclick="window.location.href='/ismac-libreria-web/clientes/findAll;return false;'">Cancelar</button>
+	</form>
 
 </body>
 </html>
