@@ -13,7 +13,7 @@
 <hr/>
 
 <div>
-	<iframe title="LIBRERIAS60" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=8e466ac3-4a43-4d07-8d70-716be151d7a1&autoAuth=true&ctid=5489579d-44b5-4792-af49-e9be4633a3d5" frameborder="0" allowFullScreen="true"></iframe>
+<iframe title="Datoslibreria" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=352b01df-4773-4a64-b10f-09628df4821b&autoAuth=true&ctid=5489579d-44b5-4792-af49-e9be4633a3d5" frameborder="0" allowFullScreen="true"></iframe>
 </div>
 
 </body>
